@@ -2,7 +2,7 @@
 
 Custom module to add a welcome message to a block.
 
-Instructions:
+<b>Instructions:<b>
 
 <p>1.Copy the hello_block folder to modules folder</p>
 <p>2.Clear Drupal cache</p>
