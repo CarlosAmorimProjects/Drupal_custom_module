@@ -1,0 +1,10 @@
+name: hello_block
+type: module
+description: 'Bloco com mensagem personalizada'
+package: Custom
+version: 8.x
+core: 8.x
+dependencies:
+  - node
+  - block
+
