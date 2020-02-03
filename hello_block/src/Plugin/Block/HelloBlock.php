@@ -21,7 +21,7 @@ class HelloBlock extends BlockBase {
 	 */
 	public function build() {
 		$hour = date('H');
-		$dayTerm = ($hour > 19) ? "uma boa noite" : (($hour > 12) ? "uma boa tarde" : "um bom dia");;
+		$dayTerm = ($hour > 19 || $hour < 06) ? "uma boa noite" : (($hour > 12) ? "uma boa tarde" : "um bom dia");;
 		return array (
 			'#type' => 'markup',
       		'#markup' => " Tenha $dayTerm com ",
